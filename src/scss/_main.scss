@@ -18,5 +18,22 @@ body {
 .main {
     margin: 0 auto;
     width: 80%;
-    
+
+     &__img {
+         width: 70em;
+         height: auto;
+     }
+
+     &__info {
+         display: flex;
+         flex-direction: column;
+
+            &__add {
+                display: flex;
+                flex-direction: row;  
+            }
+     
+        } 
+
 }
+
