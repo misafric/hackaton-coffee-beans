@@ -1,0 +1,43 @@
+.footer {
+    background-color:  rgb(23, 23, 31);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 15rem;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px;
+    width: 40%
+}
+
+.nav-link-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hashtag {
+    color: honeydew;
+    font-size: 18px;
+}
+
+.footer-media {
+    color: honeydew;
+}
+
+a.nav-footer {
+    color:honeydew;
+}
+
+a.nav-link-footer:hover {
+    color: honeydew;
+}
+
+.media-link:hover {
+    color: honeydew;
+}
